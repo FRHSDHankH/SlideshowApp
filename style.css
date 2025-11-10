@@ -74,13 +74,17 @@ body {
 
 .rot90 {
   transform: rotate(90deg);
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease-in-out;
 }
 .rot180 {
   transform: rotate(180deg);
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease-in-out;
 }
 .rot270 {
   transform: rotate(270deg);
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease-in-out;
+}
+.size {
+    height: 100vh;
+    width: 100vw;
 }
