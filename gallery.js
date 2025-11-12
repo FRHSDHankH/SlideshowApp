@@ -46,9 +46,9 @@ function fetchJSON () {
 function swapPhoto () {
   let currentImage = mImages[mCurrentIndex];
   $('#photo').attr('src', currentImage.imgPath);
-  $('.location').text(`Location: ${currentImage.imgLocation}`);
+  $('.location').text(`Make & Model: ${currentImage.imgLocation}`);
   $('.description').text(`Description: ${currentImage.description}`);
-  $('.date').text(`Date: ${currentImage.date}`);
+  $('.date').text(`Year Created: ${currentImage.date}`);
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached

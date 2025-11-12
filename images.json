@@ -1,82 +1,184 @@
 {
-    "images": [
-        {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
-        },
-        {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
-        },
-        {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
-        },
-        {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
-        },
-        {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
-            "date": "01/05/2016"
-        },
-        {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
-        },
-        {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
-        },
-        {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
-        },
-        {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
-        },
-        {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
-        },
-        {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
-        },
-        {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
-        },
-        {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
-        }
+  "images": [
+    {
+      "imgPath": "img/cars/laferrari.png",
+      "imgLocation": "Ferrari LaFerrari",
+      "description": "Only 499 units of this hybrid hypercar were made.",
+      "date": "2013"
+    },
+    {
+      "imgPath": "img/cars/aventador.png",
+      "imgLocation": "Lamborghini Aventador",
+      "description": "Named after a famous Spanish fighting bull.",
+      "date": "2011"
+    },
+    {
+      "imgPath": "img/cars/chiron.png",
+      "imgLocation": "Bugatti Chiron",
+      "description": "Can reach 261 mph with a quad-turbo W16 engine.",
+      "date": "2016"
+    },
+    {
+      "imgPath": "img/cars/plaid.png",
+      "imgLocation": "Tesla Model S Plaid",
+      "description": "Goes from 0–60 mph in under 2 seconds.",
+      "date": "2021"
+    },
+    {
+      "imgPath": "img/cars/gt.png",
+      "imgLocation": "Ford GT",
+      "description": "Won Le Mans in 2016, echoing its 1966 win.",
+      "date": "2005"
+    },
+    {
+      "imgPath": "img/cars/z06.png",
+      "imgLocation": "Chevrolet Corvette Z06",
+      "description": "The Z06 has a naturally aspirated 670-hp V8.",
+      "date": "1963"
+    },
+    {
+      "imgPath": "img/cars/turbo.png",
+      "imgLocation": "Porsche 911 Turbo S",
+      "description": "An icon since the 1960s with timeless design.",
+      "date": "1963"
+    },
+    {
+      "imgPath": "img/cars/720s.png",
+      "imgLocation": "McLaren 720S",
+      "description": "Its design is inspired by a great white shark.",
+      "date": "2017"
+    },
+    {
+      "imgPath": "img/cars/jesko.png",
+      "imgLocation": "Koenigsegg Jesko",
+      "description": "Built for over 300 mph, it redefines hypercars.",
+      "date": "2020"
+    },
+    {
+      "imgPath": "img/cars/huayra.png",
+      "imgLocation": "Pagani Huayra",
+      "description": "Named after a South American wind god.",
+      "date": "2012"
+    },
+    {
+      "imgPath": "img/cars/hellcat.png",
+      "imgLocation": "Dodge Challenger SRT Hellcat",
+      "description": "Boasts over 700 horsepower of muscle.",
+      "date": "2015"
+    },
+    {
+      "imgPath": "img/cars/gtr.png",
+      "imgLocation": "Nissan GT-R R35",
+      "description": "Nicknamed “Godzilla” for its performance.",
+      "date": "2007"
+    },
+    {
+      "imgPath": "img/cars/supra.png",
+      "imgLocation": "Toyota Supra Mk4",
+      "description": "Famous for its role in *The Fast and the Furious*.",
+      "date": "1993"
+    },
+    {
+      "imgPath": "img/cars/rx7.png",
+      "imgLocation": "Mazda RX-7",
+      "description": "Powered by a unique rotary engine.",
+      "date": "1978"
+    },
+    {
+      "imgPath": "img/cars/wrx.png",
+      "imgLocation": "Subaru WRX STI",
+      "description": "Known for rally heritage and all-wheel drive.",
+      "date": "1994"
+    },
+    {
+      "imgPath": "img/cars/m3.png",
+      "imgLocation": "BMW M3 E30",
+      "description": "A legendary compact sports car from the 80s.",
+      "date": "1985"
+    },
+    {
+      "imgPath": "img/cars/r8.png",
+      "imgLocation": "Audi R8",
+      "description": "Shares its V10 with the Lamborghini Huracán.",
+      "date": "2006"
+    },
+    {
+      "imgPath": "img/cars/amg.png",
+      "imgLocation": "Mercedes-Benz AMG GT Black Series",
+      "description": "One of the fastest cars around the Nürburgring.",
+      "date": "2020"
+    },
+    {
+      "imgPath": "img/cars/nsx.png",
+      "imgLocation": "Acura NSX",
+      "description": "Co-developed with Ayrton Senna’s input.",
+      "date": "2016"
+    },
+    {
+      "imgPath": "img/cars/civic.png",
+      "imgLocation": "Honda Civic Type R",
+      "description": "One of the best front-wheel-drive performance cars.",
+      "date": "1997"
+    },
+    {
+      "imgPath": "img/cars/wrangler.png",
+      "imgLocation": "Jeep Wrangler Rubicon 392",
+      "description": "Comes with a 6.4L V8—off-road with muscle.",
+      "date": "2021"
+    },
+    {
+      "imgPath": "img/cars/valkyrie.png",
+      "imgLocation": "Aston Martin Valkyrie",
+      "description": "A hypercar co-developed with Red Bull Racing.",
+      "date": "2021"
+    },
+    {
+      "imgPath": "img/cars/evija.png",
+      "imgLocation": "Lotus Evija",
+      "description": "An electric hypercar with nearly 2000 hp.",
+      "date": "2020"
+    },
+    {
+      "imgPath": "img/cars/nevera.png",
+      "imgLocation": "Rimac Nevera",
+      "description": "A Croatian EV supercar with four electric motors.",
+      "date": "2021"
+    },
+    {
+      "imgPath": "img/cars/giulia.png",
+      "imgLocation": "Alfa Romeo Giulia Quadrifoglio",
+      "description": "Has a Ferrari-derived twin-turbo V6.",
+      "date": "2015"
+    },
+    {
+      "imgPath": "img/cars/blackwing.png",
+      "imgLocation": "Cadillac CT5-V Blackwing",
+      "description": "Supercharged V8 with a manual option—rare today.",
+      "date": "2020"
+    },
+    {
+      "imgPath": "img/cars/ioniq.png",
+      "imgLocation": "Hyundai Ioniq 5 N",
+      "description": "An EV tuned for high-performance driving fun.",
+      "date": "2022"
+    },
+    {
+      "imgPath": "img/cars/9x8.png",
+      "imgLocation": "Peugeot 9X8 Hypercar",
+      "description": "Has no rear wing, defying convention.",
+      "date": "2022"
+    },
+    {
+      "imgPath": "img/cars/golf.png",
+      "imgLocation": "Volkswagen Golf R",
+      "description": "Blends hatchback practicality with AWD power.",
+      "date": "2015"
+    },
+    {
+      "imgPath": "img/cars/cobra.png",
+      "imgLocation": "Shelby Cobra 427",
+      "description": "An American-British icon of raw power.",
+      "date": "1965"
+    }
   ]
 }
