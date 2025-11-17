@@ -46,9 +46,9 @@ function fetchJSON() {
 function swapPhoto() {
   let currentImage = mImages[mCurrentIndex];
   $("#photo").attr("src", currentImage.imgPath);
-  $(".location").text(`Make & Model: ${currentImage.imgLocation}`);
-  $(".description").text(`Description: ${currentImage.description}`);
-  $(".date").text(`Year Created: ${currentImage.date}`);
+  $(".location").html(`<strong>Make & Model: </strong>${currentImage.imgLocation}`);
+  $(".description").html(`<strong>Description: </strong>${currentImage.description}`);
+  $(".date").html(`<strong>Year Created: </strong>${currentImage.date}`);
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
@@ -90,10 +90,10 @@ $(document).keydown(function (event) {
   } else if (key === "ArrowLeft") {
     showPrevPhoto();
   } else if (key === "ArrowDown") {
-    $(".moreIndicator").removeClass("rot90").addClass("rot270");
+    $(".moreIndicator").removeClass("rot270").addClass("rot90");
     $(".details").slideDown();
   } else if (key === "ArrowUp") {
-    $(".moreIndicator").removeClass("rot270").addClass("rot90");
+    $(".moreIndicator").removeClass("rot90").addClass("rot270");
     $(".details").slideUp();
   }
 });
